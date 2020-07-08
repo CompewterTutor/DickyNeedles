@@ -1,0 +1,15 @@
+cement==3.0.4
+jinja2
+pyyaml
+colorlog
+pyfiglet
+colorama
+termcolor
+six
+tinydb
+tabulate
+python-hosts
+difflib
+curses
+#Needed in Windows
+#windows-curses
