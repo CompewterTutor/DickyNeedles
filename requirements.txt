@@ -1,4 +1,5 @@
 cement==3.0.4
+discord
 jinja2
 pyyaml
 colorlog
@@ -11,5 +12,15 @@ tabulate
 python-hosts
 difflib
 curses
+python-dotenv
 #Needed in Windows
-#windows-curses
+#windows-cursesNzMwNTEyMDQ5MzcyOTIxOTQ4.XwYoXQ.0UaAMaPp_T_b-iNBOguCjHZWwis
+aws-cli
+aws-sam-cli
+spotipy
+twitchio
+skimage
+numpy
+opencv
+mahotas
+pytesseract
