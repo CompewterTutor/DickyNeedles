@@ -4,7 +4,13 @@ clean:
 	find . -name '*.py[co]' -delete
 
 venv:
-	python3 -m venv py-38
+	python3 -m venv py-39
+	@echo "Created Virtual ENV in ./py-39"
+	py-39/bin/pip install -r requirements-dev.txt
+	py-39/bin/python setup.py develop
+	@echo
+	@echo "Virtual ENV complete. Now run source /env/bin/activate"
+	@echo
 
 oldvirtualenv:
 	virtualenv --prompt '|> dickyneedles <| ' env

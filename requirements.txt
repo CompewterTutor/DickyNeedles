@@ -1,5 +1,6 @@
 cement==3.0.4
 discord
+numpy
 jinja2
 pyyaml
 colorlog
@@ -10,17 +11,14 @@ six
 tinydb
 tabulate
 python-hosts
-difflib
-curses
 python-dotenv
 #Needed in Windows
 #windows-cursesNzMwNTEyMDQ5MzcyOTIxOTQ4.XwYoXQ.0UaAMaPp_T_b-iNBOguCjHZWwis
-aws-cli
-aws-sam-cli
+awscli
+#aws-sam-cli
 spotipy
 twitchio
-skimage
-numpy
-opencv
+scikit-build
+#opencv-python
 mahotas
 pytesseract

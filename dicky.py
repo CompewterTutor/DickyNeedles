@@ -3,22 +3,24 @@ import os
 
 import discord
 from dotenv import load_dotenv
+from discord.ext import commands
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
-client = discord.Client()
 
-@client.event
+dickybot = commands.Bot(command_prefix('!'))
+
+@dickybot.event
 async def on_ready():
-    for guild in client.guilds:
+    for guild in dickybot.guilds:
         if guild.name == GUILD:
             break
 
     print(
-        f'{client.user} is connected to the guild: \n'
+        f'{dickybot.user} is connected to the guild: \n'
         f'{guild.name}(id: {guild.id})'
     )
-    print(f'{client.user} has connected to Discord!')
+    print(f'{dickybot.user} has connected to Discord!')
 
 client.run(TOKEN)
