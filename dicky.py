@@ -4,6 +4,10 @@ import os
 import discord
 from dotenv import load_dotenv
 from discord.ext import commands
+import pytesseract
+import cv2
+import re
+
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')

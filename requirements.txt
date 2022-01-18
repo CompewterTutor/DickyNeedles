@@ -1,6 +1,7 @@
 cement==3.0.4
 discord
 numpy
+matplotlib
 jinja2
 pyyaml
 colorlog
@@ -19,6 +20,6 @@ awscli
 spotipy
 twitchio
 scikit-build
-#opencv-python
+opencv-python
 mahotas
 pytesseract
